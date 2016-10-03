@@ -9,31 +9,31 @@
 import UIKit
 
 @IBDesignable
-public class SWProgressView: UIView {
+open class SWProgressView: UIView {
     
     /// The current progress shown by the receiver.
-    @IBInspectable public var progress: CGFloat {
+    @IBInspectable open var progress: CGFloat {
         didSet {
             setNeedsDisplay()
         }
     }
     
     /// The start point of the gradient.
-    @IBInspectable public var startColor: UIColor {
+    @IBInspectable open var startColor: UIColor {
         didSet {
             setNeedsDisplay()
         }
     }
     
     /// The end point of the gradient when drawn in the layer’s coordinate space. Animatable.
-    @IBInspectable public var endColor: UIColor {
+    @IBInspectable open var endColor: UIColor {
         didSet {
             setNeedsDisplay()
         }
     }
     
     /// A boolean value that determine whether the end point of the gradient's end color follow current progress.
-    @IBInspectable public var dynamicEndPoint: Bool {
+    @IBInspectable open var dynamicEndPoint: Bool {
         didSet {
             setNeedsDisplay()
         }
@@ -63,7 +63,7 @@ public class SWProgressView: UIView {
         endColor = tintColor
     }
     
-    public override func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
         
         layer.cornerRadius = cornerRadius
@@ -71,7 +71,7 @@ public class SWProgressView: UIView {
         clipsToBounds = true
     }
     
-    public override func draw(_ rect: CGRect) {
+    open override func draw(_ rect: CGRect) {
         let context = UIGraphicsGetCurrentContext()
         
         context?.saveGState()
