@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SWProgressView_Example' do
+  pod 'SWProgressView', :path => '../'
+
+  target 'SWProgressView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
