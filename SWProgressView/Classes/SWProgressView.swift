@@ -66,7 +66,6 @@ public class SWProgressView: UIView {
     public override func layoutSubviews() {
         super.layoutSubviews()
         
-        let height = bounds.size.height
         layer.cornerRadius = cornerRadius
         
         clipsToBounds = true
@@ -77,7 +76,6 @@ public class SWProgressView: UIView {
         
         context?.saveGState()
         
-        let currentRect = rect
         let height = bounds.size.height
         let width = bounds.size.width
         
