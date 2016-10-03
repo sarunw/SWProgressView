@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SWProgressView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SWProgressView.'
+  s.summary          = 'Progress view with gradient support.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+#  s.description      = <<-DESC
+#TODO: Add long description of the pod here.
+#                       DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/SWProgressView'
+  s.homepage         = 'https://github.com/sarunw/SWProgressView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sarun Wongpatcharapakorn' => 'artwork.th@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/SWProgressView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/sarunw/SWProgressView.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/sarunw'
 
   s.ios.deployment_target = '8.0'
 

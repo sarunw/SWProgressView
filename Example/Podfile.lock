@@ -1,0 +1,16 @@
+PODS:
+  - SWProgressView (0.1.0)
+
+DEPENDENCIES:
+  - SWProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  SWProgressView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SWProgressView: 6a57b8852ab0c79f90f29359c52e6ec3856e2245
+
+PODFILE CHECKSUM: a9acf535d291bacf1f0429646e041abb5592bbae
+
+COCOAPODS: 1.1.0.rc.2
